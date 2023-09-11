@@ -26,7 +26,7 @@ window.cassetteVisible = function() {
 
 window.setCassetteAssets = async function(metadata) {
 	function checkTag(tag_contents) {
-		return (tag_contents && typeof(tag_contents) === "string" && tag_contents.length > 3);
+		return (tag_contents && typeof(tag_contents) === "string" && tag_contents.length > 16);
 	}
 
 	let style = "";
